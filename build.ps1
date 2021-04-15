@@ -405,7 +405,7 @@ function WriteVersionToAppveyor
 
 Write-Diagnostic "CEF Redist Version = $RedistVersion"
 
-DownloadNuget
+# DownloadNuget
 
 NugetPackageRestore
 
